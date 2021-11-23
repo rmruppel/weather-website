@@ -7,7 +7,7 @@ const forecast = require('./utils/forecast')
 
 const app = express()
 const port = process.env.port || 3000  //process.env.port for Heroku
-
+console.log(port)
 // Define paths for Express config
 const publicDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates/views')
